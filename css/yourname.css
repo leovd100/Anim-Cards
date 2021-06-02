@@ -1,0 +1,37 @@
+div[yourName]{
+    background: url('../imgs/paisagemYourname.jpeg');
+    background-size: cover;
+
+}
+
+
+.elementoYour{
+    width: 100%;
+    right: -10%;
+    filter: drop-shadow(2px 2px 5px white) drop-shadow(2px 2px 2px white);
+    top: 50px;
+}
+.elementoYour img{
+    width: 250px;
+    transform: rotateZ(0deg)
+}
+
+.yourName{
+    position: absolute;
+    right: -30%;    
+    top: 15.8rem;
+}
+
+.yourName img{
+    width: 28rem;
+    filter: contrast(130%);
+    filter: drop-shadow(1px 1px 0 rgb(0, 195, 255)) 
+    drop-shadow(-1px -1px 0 white);
+    transition: transform 1s ease-in-out;
+}
+
+
+.yourName:hover img{
+    transform: rotateY(180deg)    
+    
+}

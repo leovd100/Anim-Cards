@@ -1,0 +1,27 @@
+div[dragonball]{
+    background: url('../imgs/espaço.jpg');
+    clip-path: polygon(80% 0, 100% 0, 100% 100%, 24% 100%);
+}
+
+
+.card__elementoFundo img{
+    width: 530px;
+    transform: rotateZ(7deg);
+    filter: contrast(150%);
+    
+}
+
+
+.goku img{
+    filter: contrast(120%);
+    width: 12rem;
+    filter: drop-shadow(1px 5px 0 orange) 
+    drop-shadow(-1px -5px 0 rgb(255, 251, 0));
+    transition: 1s ease-in-out;
+}
+
+.goku:hover img {
+    filter: drop-shadow(10px 10px 10px rgb(238, 255, 0)) 
+    drop-shadow(-10px -15px 5px rgb(255, 174, 0));
+    width: 14rem;
+}
